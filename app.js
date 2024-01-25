@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //variables
 let numeroSecreto = 0;
 let intentos = 0;
@@ -8,23 +7,13 @@ let listaNumerosSorteados = [];
 numeroMaximo = 10;
 
 //funcion para cambiar cambiar texto
-=======
-let numeroSecreto = 0;
-let intentos = 0;
-let listaNumerosSorteados = [];
-numeroMaximo = 10;
-
->>>>>>> 2c851ad84eac795da422fd32f924d86ff2ed1ee9
 function asignarTextoElemento(elemento, texto){
     let elementoHTML = document.querySelector(elemento);
     elementoHTML.innerHTML = texto;
     return;
 }
 
-<<<<<<< HEAD
 //funcion para verificar intentos y contestar con texto
-=======
->>>>>>> 2c851ad84eac795da422fd32f924d86ff2ed1ee9
 function verificarIntento(){
     let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
     if(numeroDeUsuario === numeroSecreto){
